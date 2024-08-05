@@ -128,7 +128,7 @@ async function displayContacts() {
       contactDisplay.innerHTML += `
           <div class="contact-details-section row">
               <div class="contact-details-profile mt-3 mb-3" style="background-color:${assignRandomColors()}">
-                  ${getInitials(user.name)}
+                  ${getInitials(user.name)} //assignRandomColors gibt es nicht
               </div>
               <div class="contact-details flex-column">
                   <span class="contact-details-name mt-3">${user.name}</span>
